@@ -1,0 +1,201 @@
+#boo-warning {
+	padding-left: 40px;
+	background: url('boo-icon.gif') #EAF3FA no-repeat left center;
+}
+
+#bboxxy_box {
+	margin: 8px auto;
+	height: 400px;
+	width: 730px;
+	overflow: auto;
+}
+
+#bboxxy_widget {
+	background: #f1f1f1;
+}
+
+#bboxxy_table {
+	margin: 0 auto;
+}
+
+#bboxxy_table td {
+	width: 175px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#bboxxy_btn {
+	cursor: pointer;
+	margin-bottom: 4px;
+}
+
+#bboxxy_header {
+	background: url('topbox.gif') repeat-x;
+	margin: 0 0 5px;
+	padding: 3px;
+	padding-left: 8px;
+	color: #000;
+}
+
+.jqmClose, #bboxxy_monetize {
+	display: block;
+	background: url('btback.gif') repeat-x;
+	height: 13px;
+	padding: 5px;
+	margin: 0 5px;
+	text-align: center;
+	float: right;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+.jqmClose {
+	width: 90px;
+	border-bottom: 2px solid #c30000;
+}
+#bboxxy_monetize {
+	width: 90px;
+	border-bottom: 2px solid #01800d;
+}
+
+#bboxxy_dialog .bboxxy_image {
+	width: 175px;
+	height: 145px;
+	overflow: hidden;
+}
+
+#bboxxy_dialog .bboxxy_flash {
+	position: relative;
+	z-index: 3001;
+	opacity: 100;
+}
+
+#bboxxy_dialog .tags {
+	margin: 10px 0 0;
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 10px;
+}
+
+#bboxxy_dialog .tags input {
+	width: 160px;
+}
+
+#bboxxy_preview {
+	display: none;
+}
+
+#bboxxy_box_btn:hover {
+	text-decoration: none;
+}
+
+#bboxxy_dialog h2 {
+	margin: 8px 0;
+	font-size: 1em;
+	color: #0088CC;
+}
+
+#bboxxy_dialog #bboxxy_tip2 {
+	font-size: 0.8em;
+	color: #555;
+}
+
+.bb-custom-rss-holder {
+	margin-left: 10px;
+}
+#bb-custom-editform {
+	padding: 5px 5px 5px 40px;
+	background: url('boo-icon.gif') #DFDFDF no-repeat left center;
+}
+
+#bboxxy_dialog .bboxxy_configurelink {
+	width: 130px;
+	display: block;
+	padding: 5px 5px 5px 40px;
+	background: url('boo-config-icon.gif') #EAF3FA no-repeat left center;
+	margin: 10px 0;
+}
+
+#booboxfy_option ul, #booboxfy_option li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#booboxfy_option a {
+	color: #000;	
+}
+
+#booboxfy_option .boo_tip {
+	display: none;
+}
+
+#booboxfy_option ul ul {
+	padding-left: 10px;
+}
+
+#booboxfy_option ul ul li {
+	margin: 5px 0 0;
+}
+
+#booboxfy_option h2 {
+	margin: 20px 0 10px 0;
+	padding: 5px;
+	font-size: 1.4em;
+	background: #EAF3FA;
+	
+}
+
+#bboxxy_table td {
+	vertical-align: bottom;
+	height: 180px;
+}
+#bboxxy_table td.hasBooBox {
+	border: 1px #009900 dashed;
+}
+
+#bboxxy_table td .callaction {
+	top: -135px;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-top: -16px;
+	background: #009900;
+	color: #FFF;
+	font-family: arial, helvetica, sans-serif !important;
+	font-size: 12px;
+	font-weight: bold;
+	height: 16px;
+	line-height: 16px;
+	letter-spacing: 0;
+	filter: alpha(opacity=70);	
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	width: 100%;
+	text-transform: lowercase;
+}
+
+#bboxxy_table td .icon-box {
+	display: none;
+}
+
+#bboxxy_table td .icon-div {
+	text-align: left;
+}
+#bboxxy_table td.hasBooBox .icon-box {
+	text-align: left !important;
+	width: 100%;
+	left: 0 !important;
+	top: -127px;
+	display: block;
+	position: relative;
+	width: 32px;
+	height: 32px;
+	margin-top: -32px;
+	background-image: none;
+	z-index: 1;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.boo-box.com/images/booboxfy-wp/boo-box-icon-w32.png", sizingMethod="scale");
+}
+
+#bboxxy_table td.hasBooBox span[class="icon-box"] {
+	background: url("boo-box-icon-w32.png") no-repeat left center;
+}

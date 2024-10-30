@@ -1,0 +1,104 @@
+div#bb-tt-simulation {
+	width:600px;
+	height:198px;
+}
+
+#bb-tt-simulation ul#bb-tt-offerslist {
+	width:600px;
+	background-color:#FFF;
+	padding: 2px;
+}
+#bb-tt-simulation ul#bb-tt-offerslist li.bb-tt-offeritem {
+	display:block;
+	float:left;
+	height:66px;
+	margin:10px;
+	padding:6px;
+	width:201px;
+}
+
+
+#bb-tt-output #bb-tt-url {
+	border:0;
+	font-family:Monaco, Arial, sans-serif;
+	font-size:11px;
+	padding:4px;
+	
+	height:30px;
+	width:600px;
+}
+
+#bb-tt-simulation ul#bb-tt-offerslist {
+	width:608px;
+	height:196px;
+	background-color:#FFF;
+	_margin-top:15px;
+}
+
+#bb-tt-simulation ul#bb-tt-offerslist li.bb-tt-offeritem {
+	background-color:#FFF;
+	border:1px solid #CCC;
+	display:none;
+	float:left;
+	height:80px;
+	margin:2px;
+	overflow:hidden;
+	padding:6px;
+	width:184px;
+/*	cursor:pointer; //debug (ie)*/
+}
+ul#bb-tt-offerslist li.bb-tt-offeritem span.bb-tt-offerimage {
+	background-color:#FFF;
+	background-repeat:no-repeat;
+	background-position:center center;
+	float:left;
+	height:80px;
+	width:79px;
+}
+ul#bb-tt-offerslist li.bb-tt-offeritem span.bb-tt-offerdescription {
+	float:left;
+	height:80px;
+	margin-left:4px;
+	width:97px;
+}
+ul#bb-tt-offerslist li.bb-tt-offeritem span.bb-tt-offerdescription a.bb-tt-offerlink {
+	display:block;
+}
+.bb-tt-offertitle {
+	color:#666;
+	display:block !important;
+	height:60px;
+	overflow:hidden;
+}
+ul#bb-tt-offerslist li.bb-tt-offeritem span.bb-tt-offerdescription span.bb-tt-offerprice {
+	color:#000;
+	display:block;
+	font-size:13px;
+	text-align:right;
+	font-weight:bold;
+	
+/*	background-color:silver; //debug*/
+}
+
+#bb-tt-simulation ul#bb-tt-offerslist li.bb-tt-loadingoffers {
+	
+	float:left;
+	text-align:center;
+	margin-top:75px;
+	width:100%;
+	
+	color:#666;
+	
+	font-size:2em;
+}
+
+/*erro: nenhuma oferta carregada*/
+#bb-tt-simulation ul#bb-tt-offerslist li.bb-tt-offersnotloaded {
+	display:none;
+	float:left;
+	text-align:center;
+	margin-top:75px;
+	width:100%;
+	color:#000;
+	font-size:2em;
+}

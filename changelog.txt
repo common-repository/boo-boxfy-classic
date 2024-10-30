@@ -1,0 +1,4 @@
+boo-boxfy-classic changelog
+
+Version 1.0
+ 	based on boo-boxfy-
